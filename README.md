@@ -57,7 +57,7 @@ The modeling pipeline followed these structured steps:
 
 ## Results & Key Insights:
 - Features such as **living area size**, **number of bathrooms**, **property age**, and **location** emerged as the strongest predictors of sale price.  
-- The chosen regression model achieved an R² of *[insert value]* on the test set, and a RMSE of *[insert value]*, demonstrating good predictive performance.  
+- The chosen regression model achieved good predictive performance.  
 - Diagnostic plots indicated some remaining heteroscedasticity and outlier influence, suggesting further refinement (e.g., transformation of variables or exclusion of extreme cases).
 
 ---
@@ -80,16 +80,6 @@ The modeling pipeline followed these structured steps:
 - Evaluate advanced methods (e.g., random forest, gradient boosting) to compare performance with regression.  
 - Develop a **shiny app** or dashboard to allow interactive property valuation and visualization.  
 - Deploy the model in a production environment for real-time valuation updates.
-
----
-
-## Tools & Architecture:
-**Language:** R  
-**Data Source:** Historic house sale data (CSV)  
-**Libraries:** ggplot2, dplyr, broom, glmnet (for regression modeling)  
-**Workflow:** Jupyter Notebook/RMarkdown → Model output → Visualizations  
-**Storage:** Local CSV datasets and model output files  
-**Visualization:** Static plots of feature relationships, residuals, model performance  
 
 ---
 
